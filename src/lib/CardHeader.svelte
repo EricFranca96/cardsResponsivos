@@ -1,20 +1,29 @@
 <script>
+    import eua from "$lib/assets/eua.jpg";
 
 
 </script>
 
 <div class="card-header">
-    <!-- <img src="" alt=""> -->
+    <img src={eua} class="card-img" alt="eua">
     
 </div>
 
 
+
 <style>
     .card-header{
-        width: 200px;
+        width: 100%;
         height: 200px;
-        background-color: orange;
+        overflow: hidden;
+    }
 
+    
+
+    .card-img{
+        min-width: 100%;
+        width: auto;
+        height: 100%;
     }
 
 </style>
